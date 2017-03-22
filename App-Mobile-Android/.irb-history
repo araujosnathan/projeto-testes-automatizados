@@ -1,0 +1,50 @@
+query "*"
+touch "* marked:'item_book_card_view'"
+touch "* marked:'Notebooks'"
+touch "* marked:'fragment_books_container'"
+touch "* marked:'content'"
+touch "* marked:'decor_content_parent'"
+touch "* marked:'navigationBarBackground'"
+touch "* marked:'More options'"
+touch "* marked:'fab'"
+query "*"
+query "*"
+clear
+exit
+start_test_server_in_background
+clear
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+query "*"
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+query "*"
+touch "* marded:'Left drawner'"
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+query "*"
+start_test_server_in_background
+query "*"
+query "*"
+query "*"
+touch "* marked:'fragment_note_title'"
+query "*"
+Add pro
+query "*"
+query "*"
+touch "* marked:'Done'"
+touch "* marked:'Done'"
+touch "* marked:'done'"
+touch "* marked:'done'"
+query "*"
+query "*"
+start_test_server_in_background
+query "*"
+touch "* marked:'Nova Anotacao'"
+clear
+touch "* marked:'Nova Anotacao'"
+start_test_server_in_background
+exit
