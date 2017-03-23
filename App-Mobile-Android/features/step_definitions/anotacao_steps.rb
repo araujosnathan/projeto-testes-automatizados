@@ -62,6 +62,6 @@ Quando(/^tocar no botão de confirmar edição$/) do
   @anotacao_screen.finalizar_edicao
 end
 
-Então(/^a anotação deve estar com novo o título e tag criados$/) do
+Então(/^a anotação deve estar com novo título e tag criados$/) do
   @anotacao_screen.verificar_edicao(@anotacao[:titulo], @anotacao[:tag])
 end

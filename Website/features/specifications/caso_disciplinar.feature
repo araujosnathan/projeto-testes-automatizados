@@ -21,10 +21,10 @@ Funcionalidade: Caso Disciplinar
     Quando inserir credencial de usarname inválido
     E inserir credencial de senha válida
     E tocar no botão de login
-    Então deve ser exebida tela com título "Retry Login" para tentar logar novamante
+    Então deve ser exebida tela para tentar logar novamante
 
   Cenario: Não é possível realizar login com senha inválida
     Quando inserir credencial de usarname válida
     E inserir credencial de senha inválida
     E tocar no botão de login
-    Então deve ser exebida tela com título "Retry Login" para tentar logar novamante
+    Então deve ser exebida tela para tentar logar novamante

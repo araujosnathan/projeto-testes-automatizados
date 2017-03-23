@@ -3,8 +3,8 @@ class LoginPage < SitePrism::Page
   # Declare todos os elementos da página
   element :campo_usarname ,       '#txtUsername'
   element :campo_senha,           '#txtPassword'
-  element :btn_login,       '#btnLogin'
-  element :retry_login, 'h1'
+  element :btn_login,             '#btnLogin'
+  element :retry_login,           '.fadable'
 
   def inserir_username(usarname)
     campo_usarname.set usarname
@@ -19,8 +19,8 @@ class LoginPage < SitePrism::Page
     TelaInicialPage.new
   end
 
-  def verificar_retry_login(mensagem)
-    if retry_login.text != mensagem
+  def verificar_retry_login
+    if !retry_login
       fail "Tela para retentiva de login não foi exibida ou título não está sendo exebido corretamente!"
     end
   end

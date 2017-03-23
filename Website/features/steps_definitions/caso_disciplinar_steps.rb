@@ -48,6 +48,6 @@ Então(/^o caso disciplinar deve estar contido na lista de casos$/) do
   @pagina_casos_disciplinar.veriricar_criacao_sucesso(CONFIG['nome_caso'])
 end
 
-Então(/^deve ser exebida tela com título "([^"]*)" para tentar logar novamante$/) do |mensagem|
-  @pagina_login.verificar_retry_login(mensagem)
+Então(/^deve ser exebida tela para tentar logar novamante$/) do
+  @pagina_login.verificar_retry_login
 end

@@ -29,4 +29,4 @@ Critérios de Aceitação
     E inserir novo limite de tempo
     E adicionar propriedade
     E tocar no botão de confirmar edição
-    Então a anotação deve estar com novo o título e tag criados
+    Então a anotação deve estar com novo título e tag criados
