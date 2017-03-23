@@ -6,7 +6,7 @@ Este é um projeto para testes automatizados para aplicações Website, Webservi
 
 Para Website são usadas as tecnologias: </br>
 * Cucumber
-* Capybara
+* Capybara + SitePrism
 * Ruby
 
 Para Webservice-API: </br>
