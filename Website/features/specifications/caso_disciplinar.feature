@@ -1,6 +1,15 @@
 # language: pt
 Funcionalidade: Caso Disciplinar
 
+Como usuário do website "https://enterprise-demo.orangehrmlive.com"
+Quero ser capaz de realizar login com username e senha
+Para poder cadastrar casos displinares
+
+Critérios de Aceitação
+- Usuário deve ser capaz de acessar tela inicial do website com username e senha válidos
+- Quando usuário cadastrar um novo caso disciplinar o mesmo deve estar contido na lista de casos
+- Quando usuário tentar realizar login com credenciais inválidas deve ser redirecionado para tela de retantiva de login
+
   Contexto: Usuário deve estar logado no website
     Dado que acesse o website "https://enterprise-demo.orangehrmlive.com"
 

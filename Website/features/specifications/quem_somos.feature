@@ -2,7 +2,7 @@
 
 Funcionalidade: Quem Somos
 
-Como usuário do site
+Como usuário do site "http://www.inmetrics.com.br"
 Quero ser capaz de acessa a página "Quem Somos"
 Para obter informações sobre a empresa
 
