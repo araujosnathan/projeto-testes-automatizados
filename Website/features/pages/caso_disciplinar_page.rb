@@ -3,9 +3,9 @@ class CasoDisciplinarPage < SitePrism::Page
   # Declare todos os elementos da página
   # element :button,       pending 'Insert button identificator'
   element :campo_nome_empregado , '#addCase_employeeName_empName'
-  element :campo_nome_caso, '#addCase_caseName'
-  element :btn_salvar , '#btnSave'
-  element :caso_criado , '.odd:nth-child(1) a'
+  element :campo_nome_caso,       '#addCase_caseName'
+  element :btn_salvar ,           '#btnSave'
+  element :caso_criado ,          '.odd:nth-child(1) a'
 
   def inserir_nome_empregado(nome_empregado)
     campo_nome_empregado.set nome_empregado
